@@ -1,0 +1,39 @@
+{
+  "name": "10_single_resource_express_api",
+  "version": "1.0.0",
+  "description": "Assignment #10: Create a Single Resource Express REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewheartsxd/single_resource_express_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewheartsxd/single_resource_express_api/issues"
+  },
+  "homepage": "https://github.com/andrewheartsxd/single_resource_express_api",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.12.0",
+    "chai-passport-strategy": "^0.2.0",
+    "eat": "^0.1.1",
+    "express": "^4.11.2",
+    "mongoose": "^3.8.23",
+    "passport": "^0.2.1",
+    "passport-http": "^0.2.2"
+  },
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "chai-http": "^1.0.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-jscs": "^1.5.0",
+    "grunt-simple-mocha": "^0.4.0",
+    "mocha": "^2.1.0"
+  }
+}
